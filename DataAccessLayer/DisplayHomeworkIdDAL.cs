@@ -34,9 +34,9 @@ namespace DataAccessLayer
                     SqlDataReader reader = cmd.ExecuteReader();
                     return reader;
 
-                    conn.Close();
+                 
 
-                }
+            }
 
                 catch (Exception ex)
                 {

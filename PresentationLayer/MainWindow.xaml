@@ -37,13 +37,13 @@
         </DockPanel>
         <Label Content="TeacherId" Height="50" FontSize="30" Grid.Row="0"></Label>
         <TextBox Name="txtTeacherId" Height="50" Width="170" FontSize="30" Grid.Column="1" BorderBrush="Black" BorderThickness="3"></TextBox>
-        <Button Content="Search" Name="btnSearch" Click="btnSearch_Click"  Height="50" Width="110" FontSize="30" Grid.ColumnSpan="2" Margin="323,8,359,82" BorderBrush="Black" BorderThickness="3" Grid.Row="1">
+        <Button Content="Search" Name="btnSearch" Click="btnSearch_Click"  Height="45" Width="100" FontSize="30" Grid.ColumnSpan="2" Margin="343,14,339,76" BorderBrush="Black" BorderThickness="3" Grid.Row="1" HorizontalAlignment="Center" Background="LemonChiffon">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="10"/>
                 </Style>
             </Button.Resources>
         </Button>
-        <DataGrid Name="dgProds" Grid.Row="1" Grid.ColumnSpan="2" ItemsSource="{Binding}" Margin="0,125,0,-1" Grid.RowSpan="2"/>
+        <DataGrid Name="dgProds" Grid.Row="1" Grid.ColumnSpan="2" ItemsSource="{Binding}" Margin="0,105,0,-1" Grid.RowSpan="2"/>
     </Grid>
 </Window>
